@@ -61,9 +61,9 @@
                     android:paddingRight="@dimen/x10"
                     android:singleLine="true"
                     android:text="小妞"
-                    android:textStyle="bold"
                     android:textColor="@color/pink"
-                    android:textSize="@dimen/x22" />
+                    android:textSize="@dimen/x22"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tv_age"
@@ -140,7 +140,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
                     android:paddingLeft="@dimen/x22"
-                    android:text="我的成就"
+                    android:text="我的勋章"
                     android:textColor="#191919"
                     android:textSize="@dimen/x30" />
 

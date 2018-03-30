@@ -29,7 +29,7 @@ public class BridgeRankAdapter extends BaseQuickAdapter<RepeatRankBean.DataBean.
 
     @Override
     protected void convert(BaseViewHolder helper, RepeatRankBean.DataBean.RankBean item) {
-        GlideUtils.GlideCircle(MyApp.getInstance(),Api.QN + item.getUserBook().getUser().getHead(),(ImageView) helper.getView(R.id.iv_head),R.mipmap.iv_login_logo);
+        GlideUtils.GlideCircle(MyApp.getInstance(),Api.QN + item.getUserBook().getUser().getHead(),(ImageView) helper.getView(R.id.iv_head), R.drawable.default_head);
         if (TextUtils.isEmpty(item.getUserBook().getUser().getNickname())) {
             helper.setText(R.id.name, "匿名用户");
         } else {

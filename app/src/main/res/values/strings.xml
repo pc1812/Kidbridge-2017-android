@@ -27,7 +27,7 @@
     <string name="popular_courses">热门课程</string>
 
     <!--我的-->
-    <string name="my_achievements">我的成就</string>
+    <string name="my_achievements">我的勋章</string>
     <string name="my_balance">我的余额</string>
     <string name="my_data">我的资料</string>
     <string name="my_water">我的水滴</string>
@@ -79,7 +79,7 @@
     <!--我的成就-->
     <string name="my_progress">我的进度</string>
     <string name="my_medal_wall">我的勋章墙</string>
-    <string name="notes_e">(注：购买的水滴不计算在内)</string>
+    <string name="notes_e">（注：水滴兑换H币后不影响勋章等级）</string>
 
     <!--我的余额-->
     <string name="balance">我的进度</string>

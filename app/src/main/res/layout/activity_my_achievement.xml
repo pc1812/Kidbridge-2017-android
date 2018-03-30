@@ -39,7 +39,7 @@
             android:layout_height="match_parent"
             android:paddingLeft="@dimen/x20"
             android:paddingTop="@dimen/x22"
-            android:text="(注：购买的水滴不计算在内)"
+            android:text="（注：水滴兑换H币后不影响勋章等级”）"
             android:textColor="@color/gray"/>
     </LinearLayout>
 

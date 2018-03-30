@@ -183,7 +183,7 @@ public class MessageActivity extends AppCompatActivity {
                         holder.setText(R.id.tv_name, TextUtils.isEmpty(jgCommentBean.getNickname()) ? "匿名用户" : jgCommentBean.getNickname());
                         holder.setText(R.id.tv_time, TimeTools.getStrTime(jgCommentBean.getCreateTime() + "", "yyyy-MM-dd\tHH:mm"));
                         holder.setText(R.id.tv_comment, TextViewUtils.replaceBlank(jgCommentBean.getText()));
-                        GlideUtils.GlideCircle(getApplicationContext(), Api.QN + jgCommentBean.getHead(), (ImageView) holder.getView(R.id.iv_pic), R.mipmap.iv_login_logo);
+                        GlideUtils.GlideCircle(getApplicationContext(), Api.QN + jgCommentBean.getHead(), (ImageView) holder.getView(R.id.iv_pic),  R.drawable.default_head);
                     }
                 });
             } else {  //推送消息  动态添加msg条数

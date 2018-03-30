@@ -177,7 +177,7 @@ public class ToReadActivity extends AppCompatActivity implements FragmentToRead.
             lp = new LinearLayout.LayoutParams(MyApp.resolutionW, MyApp.resolutionW / 9 * 5);
             re.setLayoutParams(lp);
         }
-        GlideUtils.GlideCircle(getApplicationContext(), Api.QN + SharedPreferencesUtil.getLoginInfo(getApplicationContext()).getHeadIcon(), ivLeft, R.mipmap.iv_login_logo);
+        GlideUtils.GlideCircle(getApplicationContext(), Api.QN + SharedPreferencesUtil.getLoginInfo(getApplicationContext()).getHeadIcon(), ivLeft,  R.drawable.default_head);
         qnUtils = new QnUtils(this);
         Intent intent = getIntent();
         EventBus.getDefault().register(this);

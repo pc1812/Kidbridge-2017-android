@@ -29,7 +29,6 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -141,14 +140,14 @@ public class MineFragment extends Fragment implements HttpCallBackN {
         } else {
             reTeacher.setVisibility(View.GONE);
         }
-        GlideUtils.GlideCircle(getContext(), Api.QN + userBean.getHead(), ivHead, R.mipmap.iv_login_logo);
+        GlideUtils.GlideCircle(getContext(), Api.QN + userBean.getHead(), ivHead, R.drawable.default_head);
         tvName.setText(TextUtils.isEmpty(userBean.getNickname()) ? "匿名用户" : (userBean.getNickname().length() > 9 ? userBean.getNickname().substring(0, 9) + "..." : userBean.getNickname()));
         tvAge.setText(userBean.getAge());  //年龄
         String signature = userBean.getSignature(); //签名
         if (!TextUtils.isEmpty(signature)) {
             tvContent.setText(signature);
         }
-        tvBlance.setText(new DecimalFormat("#.00").format(userBean.getBalance()) + "");//余额
+        tvBlance.setText(String.format("%.0f",userBean.getBalance()));//余额
         bonus = userBean.getBonus(); //水滴
         over = myBean.getData().getPhase().getOver();
         nowMedal = phaseBean.getNow().getName();
@@ -178,7 +177,7 @@ public class MineFragment extends Fragment implements HttpCallBackN {
         if (msg.contains("ivHead_")) { //修改了头像
             RequestOptions options = new RequestOptions();
             options.apply(RequestOptions.circleCropTransform());
-            options.error(R.mipmap.iv_login_logo);
+            options.error( R.drawable.default_head);
             Glide.with(getContext())
                     .load(msg.replace("ivHead_", "").trim())
                     .apply(options)

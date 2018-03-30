@@ -283,7 +283,7 @@ public class StartLessonDetailActivity extends AppCompatActivity implements Http
             @Override
             protected void convert(ViewHolder holder, final SignTodayBean.DataBean.SignBean signBean, int position) {
                 //头像
-                GlideUtils.GlideCircle(getApplicationContext(), Api.QN + signBean.getHead(), (ImageView) holder.getView(R.id.iv_pic), R.mipmap.iv_login_logo);
+                GlideUtils.GlideCircle(getApplicationContext(), Api.QN + signBean.getHead(), (ImageView) holder.getView(R.id.iv_pic),  R.drawable.default_head);
                 if (TextUtils.isEmpty(signBean.getNickname())) {
                     holder.setText(R.id.tv_name, "匿名用户");
                 } else {

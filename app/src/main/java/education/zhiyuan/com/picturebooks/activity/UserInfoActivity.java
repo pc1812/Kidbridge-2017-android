@@ -589,7 +589,7 @@ public class UserInfoActivity extends AppCompatActivity implements HttpCallBackN
             case 0:
                 myInfo = new Gson().fromJson(str, MyInfo.class);
                 //成功
-                GlideUtils.GlideCircle(getApplicationContext(),Api.QN + myInfo.getData().getHead(),ivHead,R.mipmap.iv_login_logo);
+                GlideUtils.GlideCircle(getApplicationContext(),Api.QN + myInfo.getData().getHead(),ivHead, R.drawable.default_head);
                 tvBirthDay.setText(TimeTools.getStrTime(myInfo.getData().getBirthday() + "")); //生日
                 if (TextUtils.isEmpty(myInfo.getData().getNickname())) {
                     etNickName.setText("匿名用户");  //昵称
@@ -606,7 +606,7 @@ public class UserInfoActivity extends AppCompatActivity implements HttpCallBackN
                 HeadBean head = new Gson().fromJson(str, HeadBean.class);
                 ToastUtil.showShort(getApplicationContext(), "修改头像成功");
                 if (ivPath != null) {
-                    GlideUtils.GlideCircle(getApplicationContext(),ivPath,ivHead,R.mipmap.iv_login_logo);
+                    GlideUtils.GlideCircle(getApplicationContext(),ivPath,ivHead, R.drawable.default_head);
                 }
                 UserInfo userInfo = SharedPreferencesUtil.getLoginInfo(getApplicationContext());
                 SharedPreferencesUtil.putLoginInfo(getApplicationContext(), userInfo.getToken(), userInfo.getPhone(), userInfo.getPwd(), head.getData().getHead(), userInfo.getNickname());

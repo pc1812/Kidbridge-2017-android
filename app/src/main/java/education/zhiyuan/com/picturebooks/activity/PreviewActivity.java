@@ -234,7 +234,7 @@ public class PreviewActivity extends AppCompatActivity implements HttpCallBackN,
         final ImageView iv_play = itemView.findViewById(R.id.iv_read);
         ImageView ivHead = itemView.findViewById(R.id.iv_left);
 
-        GlideUtils.GlideCircle(getApplicationContext(), Api.QN + SharedPreferencesUtil.getLoginInfo(getApplicationContext()).getHeadIcon(), ivHead, R.mipmap.iv_login_logo);
+        GlideUtils.GlideCircle(getApplicationContext(), Api.QN + SharedPreferencesUtil.getLoginInfo(getApplicationContext()).getHeadIcon(), ivHead, R.drawable.default_head);
         if (voicePath.equals(playPath)) {
             if (player != null) {
                 if (player.isPlaying()) {

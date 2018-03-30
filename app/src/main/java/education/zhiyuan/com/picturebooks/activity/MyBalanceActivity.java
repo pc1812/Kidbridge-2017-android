@@ -18,7 +18,6 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -193,7 +192,7 @@ public class MyBalanceActivity extends BaseActivity implements HttpCallBackN {
     @Override
     public void onSuccess(int type, String str) {
         balanceBean = new Gson().fromJson(str, BalanceBean.class);
-        tvMoney.setText("￥" + new DecimalFormat("0.00").format(balanceBean.getData().getBalance()));
+        tvMoney.setText(String.format("%s%.0f","￥",balanceBean.getData().getBalance()));
     }
 
     @Override

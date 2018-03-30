@@ -131,7 +131,7 @@ public class DiscussionAreaActivity extends AppCompatActivity implements HttpCal
 
             @Override
             protected void convert(ViewHolder holder, final RepeatComment.DataBean.CommentBean commentBean, int position) {
-                GlideUtils.GlideCircle(getApplicationContext(), Api.QN + commentBean.getUser().getHead(), (ImageView) holder.getView(R.id.iv_pic), R.mipmap.iv_login_logo);
+                GlideUtils.GlideCircle(getApplicationContext(), Api.QN + commentBean.getUser().getHead(), (ImageView) holder.getView(R.id.iv_pic),  R.drawable.default_head);
                 if (TextUtils.isEmpty(commentBean.getUser().getNickname())) {
                     holder.setText(R.id.tv_name, "匿名用户");
                 } else {
