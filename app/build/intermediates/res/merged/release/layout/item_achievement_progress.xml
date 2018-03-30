@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/re_progress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginBottom="@dimen/y10"
+    android:layout_marginTop="@dimen/y5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/x30"
+        android:paddingRight="@dimen/x30">
+
+        <TextView
+            android:id="@+id/tv_pro_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="70"
+            android:textColor="@color/greendeep"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_pro_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="70"
+            android:textColor="@color/greendeep"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_pro_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="70"
+            android:textColor="@color/greendeep"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_pro_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="70"
+            android:textColor="@color/greendeep"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/y2"
+        android:paddingLeft="@dimen/x20"
+        android:paddingRight="@dimen/x20">
+
+        <ImageView
+            android:id="@+id/iv_medal_one"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y84"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:src="@drawable/iv_xzno_gray" />
+
+        <ProgressBar
+            android:id="@+id/pb_medal_one"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y2"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:max="100"
+            android:progressDrawable="@drawable/progressbar" />
+
+        <ImageView
+            android:id="@+id/iv_medal_two"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y84"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:src="@drawable/iv_xzno_gray" />
+
+        <ProgressBar
+            android:id="@+id/pb_medal_two"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y2"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:max="100"
+            android:progressDrawable="@drawable/progressbar" />
+
+        <ImageView
+            android:id="@+id/iv_medal_three"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y84"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:src="@drawable/iv_xzno_gray" />
+
+        <ProgressBar
+            android:id="@+id/pb_medal_three"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y2"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:max="100"
+            android:progressDrawable="@drawable/progressbar" />
+
+        <ImageView
+            android:id="@+id/iv_medal_four"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y84"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:src="@drawable/iv_xzno_gray" />
+
+        <ProgressBar
+            android:id="@+id/pb_medal_four"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y2"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:max="100"
+            android:progressDrawable="@drawable/progressbar" />
+
+        <ImageView
+            android:id="@+id/iv_medal_five"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y84"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:src="@drawable/iv_xzno_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_progress"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_progress"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_progress"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_progress"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_progress"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_progress"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

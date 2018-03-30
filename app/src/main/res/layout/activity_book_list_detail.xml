@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="education.zhiyuan.com.picturebooks.activity.BookListDetailActivity">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <education.zhiyuan.com.picturebooks.view.commodity.MScrollview
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_todayclock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/x10"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:paddingLeft="@dimen/x11"
+                android:paddingRight="@dimen/x11"
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    </education.zhiyuan.com.picturebooks.view.commodity.MScrollview>
+
+</LinearLayout>

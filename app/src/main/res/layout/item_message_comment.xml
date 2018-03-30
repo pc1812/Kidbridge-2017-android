@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y20"
+        android:background="@color/graywhite"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/ll_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/x22"
+        android:paddingRight="@dimen/x10"
+        android:paddingTop="@dimen/y20">
+
+        <ImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="@dimen/x97"
+            android:layout_height="@dimen/x97"
+            android:src="@mipmap/iv_login_logo" />
+
+        <ImageView
+            android:id="@+id/redPoint"
+            android:layout_width="@dimen/x12"
+            android:layout_height="@dimen/x12"
+            android:layout_marginLeft="@dimen/x99"
+            android:layout_marginTop="@dimen/y8"
+            android:src="@drawable/iv_red_point" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x22"
+            android:layout_marginTop="@dimen/y10"
+            android:layout_toRightOf="@id/iv_pic"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="10"
+            android:singleLine="true"
+            android:text="萌小妞"
+            android:textColor="#191919"
+            android:textSize="@dimen/x26" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_name"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="05/26 10:00"
+            android:textSize="@dimen/x24" />
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_name"
+            android:layout_below="@id/tv_name"
+            android:layout_marginBottom="@dimen/y30"
+            android:layout_marginTop="@dimen/y14"
+            android:lineSpacingExtra="@dimen/x4"
+            android:text="发音很标准，是学习口语很好的教材，棒棒哒"
+            android:textSize="@dimen/x24" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y2"
+            android:layout_alignLeft="@id/tv_comment"
+            android:layout_below="@id/tv_comment"
+            android:background="#e5e5e5" />
+    </RelativeLayout>
+
+</LinearLayout>

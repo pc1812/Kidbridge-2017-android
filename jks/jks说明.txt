@@ -1,0 +1,4 @@
+绘本
+jks名字 : pictureBooks.jks
+keyAlias: picturebooks
+keyPassword: android

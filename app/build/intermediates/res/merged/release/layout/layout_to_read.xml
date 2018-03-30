@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <RelativeLayout
+        android:id="@+id/re"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x416">
+
+        <ImageView
+            android:id="@+id/iv_bg_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y44"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/x10"
+            android:alpha="0.5"
+            android:background="@drawable/bg_shape_tr"
+            android:gravity="center"
+            android:paddingLeft="@dimen/x20"
+            android:paddingRight="@dimen/x20"
+            android:text="倒计时 10:00"
+            android:textColor="#fff"
+            android:textSize="@dimen/x26"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_index"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y44"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/x10"
+            android:alpha="0.5"
+            android:background="@drawable/bg_shape_tr"
+            android:gravity="center"
+            android:text="11/11"
+            android:textColor="#fff"
+            android:textSize="@dimen/x26"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y640" />
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!---->
+    <!--</RelativeLayout>-->
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/ll_read"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="@dimen/x98"
+            android:layout_height="@dimen/x98"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x124" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/x220"
+            android:layout_height="@dimen/y60"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_rectangular_shape_green">
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/y12"
+                android:paddingLeft="@dimen/x26"
+                android:paddingRight="@dimen/x165"
+                android:paddingTop="@dimen/y12"
+                android:src="@drawable/iv_play_white" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x20"
+                android:gravity="center_vertical"
+                android:text="4'18''"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x24" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_readFinish"
+            android:layout_width="@dimen/x94"
+            android:layout_height="@dimen/x94"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x124"
+            android:background="@drawable/shape_circle_gray"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x28" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <files-path
+        name="files-path"
+        path="" />
+
+    <!--相当 Context.getFilesDir() + path, name是分享url的一部分-->
+
+
+    <cache-path
+        name="cache-path"
+        path="" />
+
+    <!--getCacheDir()-->
+
+
+    <external-path
+        name="external-path"
+        path="" />
+
+    <!--Environment.getExternalStorageDirectory()-->
+
+
+    <external-files-path
+        name="external-files-path"
+        path="" />
+
+    <!--getExternalFilesDir(String) Context.getExternalFilesDir(null)-->
+
+
+    <external-cache-path
+        name="external-cache-path"
+        path="" />
+
+    <!--Context.getExternalCacheDir()-->
+
+
+    -
+    <paths>
+
+        <external-path
+            name="camera_photos"
+            path="" />
+
+    </paths>
+
+
+    -
+    <paths>
+
+        <!--<external-path path="" name="download"/>-->
+
+
+        <files-path
+            name="download"
+            path="" />
+
+    </paths>
+
+    <external-path
+        name="images"
+        path="test/"/>
+
+</resources>
+
+    <!--<?xml version="1.0" encoding="utf-8"?><resources><external-pathname="images"path="test/"/>-->
+
+    <!--&lt;!&ndash;<paths>&ndash;&gt;&lt;!&ndash;&lt;!&ndash;<external-path path="" name="download"/>&ndash;&gt;&ndash;&gt;&lt;!&ndash;<files-path path ="" name = "download"/>&ndash;&gt;&lt;!&ndash;</paths>&ndash;&gt;</resources>-->

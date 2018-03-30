@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x340"
+    android:layout_height="@dimen/y340"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shape_dialog_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y30">
+
+        <ImageView
+            android:id="@+id/pb_load"
+            android:layout_width="@dimen/x102"
+            android:layout_height="@dimen/y160"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/x20"
+            android:src="@drawable/recording_animlist" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_load_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x10"
+        android:text="向上滑动，取消录音"
+        android:textColor="#eee"
+        android:textSize="@dimen/x30" />
+</LinearLayout>

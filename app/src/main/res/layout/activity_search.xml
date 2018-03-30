@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="education.zhiyuan.com.picturebooks.activity.SearchActivity">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/re_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y115"
+            android:background="@color/graywhite">
+
+            <LinearLayout
+                android:layout_width="@dimen/x590"
+                android:layout_height="@dimen/y78"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_shape_white">
+
+                <ImageView
+                    android:id="@+id/iv_search"
+                    android:layout_width="@dimen/x34"
+                    android:layout_height="@dimen/x34"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:src="@drawable/iv_search_gray" />
+
+                <EditText
+                    android:id="@+id/et_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:layout_marginRight="@dimen/x20"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="请输入绘本名称"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x28" />
+
+                <ImageView
+                    android:id="@+id/iv_delete"
+                    android:layout_width="@dimen/x78"
+                    android:layout_height="@dimen/x58"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/x20"
+                    android:padding="@dimen/x10"
+                    android:src="@drawable/iv_x" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/re_search"
+            android:paddingLeft="@dimen/x12"
+            android:paddingRight="@dimen/x12"></android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/ll_record"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/re_search"
+            android:background="@color/graywhite"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/y20"
+                android:layout_marginLeft="@dimen/x20"
+                android:text="搜索记录" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y80"
+                android:layout_marginTop="@dimen/y1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="清除历史记录" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

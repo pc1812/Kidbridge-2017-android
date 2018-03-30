@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/re"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/x20"
+    android:layout_marginRight="@dimen/x20"
+    android:layout_marginTop="@dimen/y20">
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="@dimen/x94"
+        android:layout_height="@dimen/x94"
+        android:layout_marginRight="@dimen/x20"
+        android:src="@mipmap/iv_login_logo" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y10"
+        android:layout_toRightOf="@id/iv_pic"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxEms="8"
+        android:singleLine="true"
+        android:text="萌小妞"
+        android:textColor="#191919"
+        android:textSize="@dimen/x30" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_name"
+        android:layout_alignParentRight="true"
+        android:text="05/26 10:00"
+        android:textColor="@color/textGray"
+        android:textSize="@dimen/x24" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="@dimen/y10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/x4"
+            android:text="发音很标准，是学习口语很好的教材，棒棒哒"
+            android:textColor="@color/textGray"
+            android:textSize="@dimen/x26" />
+
+        <LinearLayout
+            android:id="@+id/ll_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y20"
+        android:layout_below="@id/ll"
+        android:background="@color/white" />
+
+</RelativeLayout>

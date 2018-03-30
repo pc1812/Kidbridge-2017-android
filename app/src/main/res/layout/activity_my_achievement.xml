@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="education.zhiyuan.com.picturebooks.activity.MyAchievementActivity">
+    <include layout="@layout/bar_left_title_right"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的进度"
+        android:textSize="@dimen/x30"
+        android:paddingLeft="@dimen/x20"
+        android:paddingTop="@dimen/x20"
+        android:textColor="@color/black"
+        />
+  <include layout="@layout/item_achievement_progress"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y20"
+        android:background="@color/graywhite"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/x20"
+            android:paddingTop="@dimen/x20"
+            android:text="我的勋章墙"
+            android:textSize="@dimen/x30"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/x20"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/x20"
+            android:paddingTop="@dimen/x22"
+            android:text="(注：购买的水滴不计算在内)"
+            android:textColor="@color/gray"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/medal_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </android.support.v7.widget.RecyclerView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/graywhite"/>
+</LinearLayout>

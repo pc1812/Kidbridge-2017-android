@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/re_clock"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/y40"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/x10"
+        android:src="@mipmap/iv_login_logo" />
+
+    <TextView
+        android:id="@+id/tv_myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_marginTop="@dimen/y2"
+        android:layout_toRightOf="@id/iv_left"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="卡卡"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x14" />
+
+    <LinearLayout
+        android:id="@+id/ll_read"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30"
+        android:layout_below="@id/tv_myname"
+        android:layout_toRightOf="@id/iv_left"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="@dimen/x160"
+            android:layout_height="@dimen/y18"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x8"
+            android:background="@drawable/bg_rectangular_shape_green"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/x10"
+            android:paddingRight="@dimen/x10"
+            android:text="音频草稿\t\t\t\t\t\t\t4'18''"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x14" />
+
+        <ImageView
+            android:id="@+id/iv_read"
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/y20"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x10"
+            android:src="@drawable/iv_to_read_play" />
+
+        <ImageView
+            android:id="@+id/iv_reply"
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/y20"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x10"
+            android:src="@drawable/iv_reply" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_notClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_myname"
+        android:layout_margin="@dimen/x10"
+        android:layout_toRightOf="@id/iv_left"
+        android:text="未打卡"
+        android:textColor="@color/pink"
+        android:visibility="gone" />
+
+</RelativeLayout>

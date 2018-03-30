@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:90
+-keep class education.zhiyuan.com.picturebooks.MyApp { <init>(...); }
+

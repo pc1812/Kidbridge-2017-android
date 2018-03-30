@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/re_apliay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/x56"
+                android:layout_height="@dimen/x56"
+                android:layout_marginRight="@dimen/x22"
+                android:src="@drawable/apliay" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/view1"
+                android:gravity="center_vertical"
+                android:text="支付宝支付"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x30" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y2"
+        android:background="@color/graywhite" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/re_w_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/x57"
+                android:layout_height="@dimen/y50"
+                android:layout_marginRight="@dimen/x20"
+                android:src="@drawable/w_chat_pay" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="微信支付\t\t"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x30" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y19"
+        android:background="@color/graywhite" />
+
+    <TextView
+        android:id="@+id/pop_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:gravity="center"
+        android:padding="@dimen/x12"
+        android:text="取消"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x30" />
+
+</LinearLayout>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="education.zhiyuan.com.picturebooks"
+    android:versionCode="2"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <!-- 微信支付 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问WIFI状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 读取手机状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 唤醒锁屏 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 读写入外部存储 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 访问精确定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 修改音频设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 允许读写系统设置项 使用设置时需要 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 读取启动设置 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <!-- 音视频通话所需权限 -->
+    <!-- 唤醒锁屏 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 读取联系人 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- Demo新添加的一些属性 -->
+    <!-- 访问GMail账户列表 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 使用证书 -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- 管理账户 -->
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <!-- 验证账户 -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <!-- 连续广播（允许一个程序收到广播后快速收到下一个广播） -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <!-- 连续广播（允许一个程序收到广播后快速收到下一个广播） -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <!-- 拨打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 华为安装权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <permission
+        android:name="education.zhiyuan.com.picturebooks.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" /> <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="education.zhiyuan.com.picturebooks.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" /> <!-- Optional for location -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="education.zhiyuan.com.picturebooks.MyApp"
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize|keyboardHidden"
+        android:icon="@mipmap/iv_login_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeN" >
+
+        <!-- 引导页    android:launchMode="singleTask" -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 启动页    android:launchMode="singleTask" -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <!-- 评论 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.CommentsActivity"
+            android:screenOrientation="portrait" />
+        <!-- 登录 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <!-- 注册 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.RegisteredActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的水滴 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.MyWaterActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的绘本 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.MyBridge"
+            android:screenOrientation="portrait" />
+        <!-- 我的资料 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.UserInfoActivity"
+            android:screenOrientation="portrait" />
+        <!-- 今日打卡、热门书单 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.ToDayClockActivity"
+            android:screenOrientation="portrait" />
+        <!-- 适合年龄更多 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.AgeMoreActivity"
+            android:screenOrientation="portrait" />
+        <!-- 绘本详情 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.BridgeDetail"
+            android:screenOrientation="portrait" />
+
+        <!-- 图片轮播详情 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.BannerDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 跟读详细 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.ToReadDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 水滴明细 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.WaterDetail"
+            android:screenOrientation="portrait" />
+        <!-- 我的跟读 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.MyToReadActivity"
+            android:screenOrientation="portrait" />
+        <!-- 跟读页面 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.ToReadActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.AboutUsActivity" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.MyEvaluateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.MyClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.IsTeacherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.FeedBackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.MessageActivity"
+            android:screenOrientation="portrait" />
+        <!-- adjustPan 防止软键盘会把原来的界面挤上去 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.MyAchievementActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.ResetPasswordActivity" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.StartLessonDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 预览 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.PreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.ClockActivity" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.MyCourseMoreActivity" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.HotCourseMoreActivity" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.ComActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.MyBalanceActivity" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Transparent" />
+
+        <!-- 图片剪切 -->
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.ForgetPwdActivity" />
+
+        <!-- 支付宝 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 微信支付 -->
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Transparent" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.LessonDetailActivity" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.DiscussionAreaActivity" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.BookListDetailActivity" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.MyToReadLessHbActivity" />
+
+        <receiver
+            android:name="education.zhiyuan.com.picturebooks.receiver.PushReceiver"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- Required 用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!-- Required 用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required 用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="education.zhiyuan.com.picturebooks" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="education.zhiyuan.com.picturebooks.service.ApkUpdateService" />
+
+        <!-- 7.0拍照 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="education.zhiyuan.com.picturebooks.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.AddressActivity" />
+        <activity
+            android:name="education.zhiyuan.com.picturebooks.activity.EditAddressActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name="education.zhiyuan.com.picturebooks.activity.MyMedalActivity" />
+
+        <provider
+            android:name="com.just.library.AgentWebFileProvider"
+            android:authorities="education.zhiyuan.com.picturebooks.AgentWebFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/web_download_paths" />
+        </provider>
+
+        <receiver android:name="com.just.library.RealDownLoader$NotificationBroadcastReceiver" /> <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" /> <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="education.zhiyuan.com.picturebooks" />
+            </intent-filter>
+        </activity> <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" /> <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="education.zhiyuan.com.picturebooks" />
+            </intent-filter>
+        </service> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="education.zhiyuan.com.picturebooks" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver> <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" /> <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="1a618ab15b98c9dbdee5ecae" />
+    </application>
+
+</manifest>

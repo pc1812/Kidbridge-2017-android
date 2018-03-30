@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graywhite"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y168"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/x22"
+        android:paddingRight="@dimen/x26">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="个人头像"
+            android:textColor="#333"
+            android:textSize="@dimen/x30" />
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/x126"
+            android:layout_height="@dimen/x126"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y2"
+            android:layout_alignParentBottom="true"
+            android:background="@color/graywhite" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/x22"
+        android:paddingRight="@dimen/x26">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et_nickName"
+            android:layout_alignBottom="@+id/et_nickName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="昵称"
+            android:textColor="#333"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/et_nickName"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="right|center"
+            android:hint="请填写宝贝昵称"
+            android:singleLine="true"
+            android:textSize="@dimen/x30" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y2"
+            android:layout_alignParentBottom="true"
+            android:background="@color/graywhite" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/x22"
+        android:paddingRight="@dimen/x26">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="生日"
+            android:textColor="#333"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/tv_birthDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:drawablePadding="@dimen/x10"
+            android:text="1999-1-1"
+            android:textSize="@dimen/x30" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y2"
+            android:layout_alignParentBottom="true"
+            android:background="@color/graywhite" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/x22"
+        android:paddingRight="@dimen/x26">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="手机号"
+            android:textColor="#333"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:hint="请填写宝贝昵称"
+            android:text="13146596587"
+            android:textSize="@dimen/x30" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y2"
+            android:layout_alignParentBottom="true"
+            android:background="@color/graywhite" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/x22"
+        android:paddingRight="@dimen/x26">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="地址"
+            android:textColor="#333"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:textSize="@dimen/x30" />
+
+        <ImageView
+            android:id="@+id/iv_address"
+            android:layout_width="@dimen/x13"
+            android:layout_height="@dimen/y23"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/iv_right" />
+
+    </RelativeLayout>
+
+</LinearLayout>

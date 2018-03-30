@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_read"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/y26"
+    android:layout_height="@dimen/y94">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y94">
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/x94"
+            android:layout_height="@dimen/x94"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x22"
+            android:src="@mipmap/iv_login_logo" />
+
+        <!--@drawable/iv_login_logo-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y94"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_marginTop="@dimen/x4"
+            android:layout_toRightOf="@+id/iv_head"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="萌小妞"
+                android:ellipsize="end"
+                android:maxEms="10"
+                android:singleLine="true"
+                android:textColor="#191919"
+                android:textSize="@dimen/x30" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="@dimen/x6"
+                android:text="2017/06/20\t\t19:13"
+                android:textColor="@color/textGray"
+                android:textSize="@dimen/x24" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x24">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/iv_admire"
+                    android:layout_width="@dimen/x36"
+                    android:layout_height="@dimen/y27"
+                    android:layout_marginRight="@dimen/x10"
+                    android:layout_toLeftOf="@+id/admire_count"
+                    android:src="@drawable/admire_pink" />
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/admire_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:text="50"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/x30" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

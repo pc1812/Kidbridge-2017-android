@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/x520"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        android:padding="@dimen/x36">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请允许获取相机以及存储权限"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x34" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y8"
+            android:text="由于无法获取相机以及存储权限，此功能不能正常运行，请开启权限后，再继续操作。"
+            android:textColor="#333"
+            android:textSize="@dimen/x32" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y8"
+            android:text="设置路径：设置>应用>绘本>权限"
+            android:textColor="#333" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

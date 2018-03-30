@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\ucrop_fade_in.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1f96e867b7fa7b7ab8a3e3b61845b128ab85f6ce\\output\\res\\anim\\ucrop_fade_in.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_out.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

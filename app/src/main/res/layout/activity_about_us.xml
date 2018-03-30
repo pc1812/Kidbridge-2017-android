@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="@dimen/x169"
+        android:layout_height="@dimen/x169"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x128"
+        android:src="@mipmap/iv_login_logo" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y80"
+        android:textColor="#191919"
+        android:text="本软件版本为V0.0.1"
+        android:textSize="@dimen/x30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y30"
+        android:textColor="#191919"
+        android:text="本产品的最终解释权归属藤桥教育科技(上海)有限公司"
+        android:textSize="@dimen/x30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y20"
+        android:text="使用协议版本声明"
+        android:textColor="#191919"
+        android:textSize="@dimen/x30" />
+</LinearLayout>

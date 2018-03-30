@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <ImageView
+        android:layout_width="@dimen/x164"
+        android:layout_height="@dimen/x164"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y115"
+        android:src="@drawable/iv_water_count" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="水滴个数"
+        android:textColor="#191919"
+        android:textSize="@dimen/x30" />
+
+    <TextView
+        android:id="@+id/bonus_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y20"
+        android:text="0"
+        android:textColor="#40B642"
+        android:textSize="@dimen/x60"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y60"
+        android:gravity="center"
+        android:text="余额明细"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/x32" />
+
+    <Button
+        android:id="@+id/btn_dh"
+        android:layout_width="@dimen/x560"
+        android:layout_height="@dimen/y88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y40"
+        android:background="@drawable/bg_rectangular_shape_green"
+        android:text="兑换成余额"
+        android:textColor="#fff"
+        android:textSize="@dimen/x32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y41"
+        android:text="提示: 100水滴可兑换1H币"
+        android:textColor="#999999"
+        android:textSize="@dimen/x24" />
+
+</LinearLayout>

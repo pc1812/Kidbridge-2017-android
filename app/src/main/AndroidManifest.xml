@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="education.zhiyuan.com.picturebooks">
+
+    <!-- 微信支付 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问WIFI状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 读取手机状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 唤醒锁屏 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 读写入外部存储 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 访问精确定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 修改音频设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 允许读写系统设置项 使用设置时需要 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 读取启动设置 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <!-- 音视频通话所需权限 -->
+    <!-- 唤醒锁屏 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 读取联系人 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- Demo新添加的一些属性 -->
+    <!-- 访问GMail账户列表 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 使用证书 -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- 管理账户 -->
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <!-- 验证账户 -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <!-- 连续广播（允许一个程序收到广播后快速收到下一个广播） -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <!-- 连续广播（允许一个程序收到广播后快速收到下一个广播） -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <!-- 拨打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 华为安装权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize|keyboardHidden"
+        android:icon="@mipmap/iv_login_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeN">
+
+        <!-- 引导页    android:launchMode="singleTask"-->
+        <activity
+            android:name=".activity.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 启动页    android:launchMode="singleTask"-->
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <!-- 评论 -->
+        <activity
+            android:name=".activity.CommentsActivity"
+            android:screenOrientation="portrait" />
+        <!-- 登录 -->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <!-- 注册 -->
+        <activity
+            android:name=".activity.RegisteredActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的水滴 -->
+        <activity
+            android:name=".activity.MyWaterActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的绘本 -->
+        <activity
+            android:name=".activity.MyBridge"
+            android:screenOrientation="portrait" />
+        <!-- 我的资料 -->
+        <activity
+            android:name=".activity.UserInfoActivity"
+            android:screenOrientation="portrait" />
+        <!-- 今日打卡、热门书单 -->
+        <activity
+            android:name=".activity.ToDayClockActivity"
+            android:screenOrientation="portrait" />
+        <!-- 适合年龄更多 -->
+        <activity
+            android:name=".activity.AgeMoreActivity"
+            android:screenOrientation="portrait" />
+        <!-- 绘本详情 -->
+        <activity
+            android:name=".activity.BridgeDetail"
+            android:screenOrientation="portrait" />
+
+        <!-- 图片轮播详情 -->
+        <activity
+            android:name=".activity.BannerDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 跟读详细 -->
+        <activity
+            android:name=".activity.ToReadDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 水滴明细 -->
+        <activity
+            android:name=".activity.WaterDetail"
+            android:screenOrientation="portrait" />
+        <!-- 我的跟读 -->
+        <activity
+            android:name=".activity.MyToReadActivity"
+            android:screenOrientation="portrait" />
+        <!-- 跟读页面 -->
+        <activity
+            android:name=".activity.ToReadActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity
+            android:name=".activity.MyEvaluateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IsTeacherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FeedBackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessageActivity"
+            android:screenOrientation="portrait" />
+        <!-- adjustPan 防止软键盘会把原来的界面挤上去 -->
+        <activity
+            android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" />
+        <activity
+            android:name=".activity.MyAchievementActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ResetPasswordActivity" />
+        <activity
+            android:name=".activity.StartLessonDetailActivity"
+            android:screenOrientation="portrait" />
+        <!-- 预览 -->
+        <activity
+            android:name=".activity.PreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ClockActivity" />
+        <activity android:name=".activity.MyCourseMoreActivity" />
+        <activity android:name=".activity.HotCourseMoreActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ComActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activity.MyBalanceActivity" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Transparent" />
+
+        <!-- 图片剪切 -->
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".activity.ForgetPwdActivity" />
+
+        <!-- 支付宝 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 微信支付 -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Transparent" />
+        <activity android:name=".activity.LessonDetailActivity" />
+        <activity android:name=".activity.DiscussionAreaActivity" />
+        <activity android:name=".activity.BookListDetailActivity" />
+        <activity android:name=".activity.MyToReadLessHbActivity" />
+
+        <receiver
+            android:name=".receiver.PushReceiver"
+            android:enabled="true">
+            <intent-filter>
+
+                <!-- Required 用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!-- Required 用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required 用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="education.zhiyuan.com.picturebooks" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.ApkUpdateService" />
+
+        <!-- 7.0拍照 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="education.zhiyuan.com.picturebooks.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity android:name=".activity.AddressActivity" />
+        <activity
+            android:name=".activity.EditAddressActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".activity.MyMedalActivity"></activity>
+    </application>
+
+</manifest>

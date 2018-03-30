@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/re_wChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/x56"
+                android:layout_height="@dimen/x56"
+                android:layout_marginRight="@dimen/x16"
+                android:src="@drawable/iv_login_w_chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/view1"
+                android:gravity="center_vertical"
+                android:text="分享给微信好友\t\t\t\t\t\t\t\t"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x30" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:background="@color/graywhite" />
+
+
+    <LinearLayout
+        android:id="@+id/re_w_friends"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/x56"
+            android:layout_height="@dimen/x56"
+            android:layout_marginRight="@dimen/x16"
+            android:src="@drawable/iv_wx_share" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="分享到朋友圈（+1水滴）"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x30" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y10"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/pop_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x30" />
+
+
+</LinearLayout>

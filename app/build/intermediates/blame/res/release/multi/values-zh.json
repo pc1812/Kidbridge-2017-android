@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "C:\\Users\\LH\\.android\\build-cache\\1f96e867b7fa7b7ab8a3e3b61845b128ab85f6ce\\output\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 53,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\Users\\LH\\.android\\build-cache\\1f96e867b7fa7b7ab8a3e3b61845b128ab85f6ce\\output\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 53,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 46,
+                    "endOffset": 205
+                },
+                "from": {
+                    "file": "C:\\Users\\LH\\.android\\build-cache\\1f96e867b7fa7b7ab8a3e3b61845b128ab85f6ce\\output\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 46,
+                        "endOffset": 205
+                    }
+                }
+            }
+        ]
+    }
+]

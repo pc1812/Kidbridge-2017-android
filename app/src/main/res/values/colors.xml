@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15CF30</color>
+    <color name="colorPrimaryDark">#15CF30</color>
+    <color name="colorAccent">#15CF30</color>
+
+    <color name="divider_color">#dfdfdf</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#9F9F9F</color>
+    <color name="pink">#FE6A76</color>
+    <color name="graywhite">#F0F0F0</color>
+    <color name="green">#129f0f</color>
+    <color name="greendeep">#15CF30</color>
+    <color name="orange">#eed82a</color>
+    <color name="blacklight">#555555</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="mainGreen">#14d02f</color>
+    <color name="lightGreen">#9fe69c</color>
+    <color name="garys_ahple">#40000000</color>
+    <color name="solarTextColor">#ded7d7</color>
+    <color name="lunarTextColor">#666666</color>
+    <color name="hintColor">#c1c1c1</color>
+    <color name="selectCircleColor">#00c8aa</color>
+
+    <color name="textBlack">#1b1b1b</color>
+    <color name="textGray">#999999</color>
+
+</resources>

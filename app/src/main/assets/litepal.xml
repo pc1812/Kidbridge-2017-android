@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="JGPush"></dbname>
+    <version value="5"></version>
+    <list>
+        <mapping class="education.zhiyuan.com.picturebooks.bean.JGPushBean"></mapping>
+        <mapping class="education.zhiyuan.com.picturebooks.bean.JGCommentBean"></mapping>
+        <mapping class="education.zhiyuan.com.picturebooks.bean.SecordRecordBean"></mapping>
+    </list>
+</litepal>

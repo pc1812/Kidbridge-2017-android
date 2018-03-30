@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y85"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/x10"
+                android:entries="@array/mobilearea"></Spinner>
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="请输入手机号"
+                android:paddingLeft="@dimen/x10"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/x30" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x705"
+            android:layout_height="@dimen/y2"
+            android:layout_gravity="center"
+            android:background="#ececec"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y85"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@null"
+                android:hint="请输入验证码"
+                android:paddingLeft="@dimen/x22"
+                android:singleLine="true"
+                android:maxEms="8"
+                android:textColor="@color/textBlack"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/x30" />
+
+            <Button
+                android:id="@+id/btn_code"
+                android:layout_width="@dimen/x206"
+                android:layout_height="@dimen/y66"
+                android:layout_marginRight="@dimen/x24"
+                android:background="@drawable/bg_rectangular_shape_green"
+                android:text="获取验证码"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x28" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/x705"
+            android:layout_height="@dimen/y2"
+            android:layout_gravity="center"
+            android:background="#ececec"/>
+        <EditText
+            android:id="@+id/et_newPwd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y85"
+            android:background="@color/white"
+            android:hint="请输入新密码"
+            android:paddingLeft="@dimen/x22"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/textBlack"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/x30" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="@dimen/x560"
+        android:layout_height="@dimen/y88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x100"
+        android:background="@drawable/bg_rectangular_shape_green"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x32" />
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graywhite"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/re_one"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y88"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x32"
+            android:gravity="center"
+            android:text="只在wifi环境下自动更新"
+            android:textColor="#191919"
+            android:textSize="@dimen/x30" />
+
+        <CheckBox
+            android:id="@+id/cb_clear"
+            android:layout_width="@dimen/x110"
+            android:layout_height="@dimen/y58"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x24"
+            android:background="@drawable/iv_switch_open"
+            android:button="@null"
+            android:checked="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_clearcache"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/y88"
+        android:layout_marginTop="@dimen/x2"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x32"
+            android:gravity="center"
+            android:text="清除缓存"
+            android:textColor="@color/textBlack"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/tv_cacheNum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x24"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/pink"
+            android:textSize="@dimen/x30" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="topBar_leftText" format="string|reference" />//左边的文字
+        <attr name="topBar_leftImg" format="reference|integer" />//左边的图片
+        <attr name="topBar_rightImg" format="reference|integer" />//最右边的图片
+        <attr name="topBar_rightText" format="reference|string" />//最右边的文字
+        <attr name="topBar_rightSecondImg" format="reference|integer"/>//右边第二张的图片
+        <attr name="topBar_title" format="reference|string"/>//中间标题
+        <attr name="topBar_Img" format="reference|integer"/>//中间图片
+    </declare-styleable>
+
+    <!--自定义MLImageView的属性-->
+    <declare-styleable name="MLImageView">
+        <attr name="press_alpha" format="integer" />
+        <attr name="press_color" format="color" />
+        <attr name="radius" format="dimension"/>
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color"/>
+        <attr name="shape_type" format="enum">
+            <enum name="round" value="0"/>
+            <enum name="rectangle" value="1" />
+        </attr>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="NMCalender">
+        <attr name="default_color" format="color|reference"/>
+        <attr name="punched_card_color" format="color|reference"/>
+        <attr name="today_text_color" format="color|reference"/>
+        <attr name="today_bg_color" format="color|reference"/>
+        <attr name="select_item_bg" format="color|reference"/>
+        <attr name="isShow_lunar_calendar" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="NCalendar">
+        <attr name="solarTextColor" format="color" />
+        <attr name="lunarTextColor" format="color" />
+        <attr name="hintColor" format="color" />
+        <attr name="selectCircleColor" format="color" />
+        <attr name="solarTextSize" format="dimension" />
+        <attr name="lunarTextSize" format="dimension" />
+        <attr name="selectCircleRadius" format="integer" />
+        <attr name="isShowLunar" format="boolean" />
+
+        <attr name="pointSize" format="dimension" />
+        <attr name="pointcolor" format="color" />
+        <attr name="hollowCircleColor" format="color" />
+        <attr name="hollowCircleStroke" format="integer" />
+        <attr name="startDateTime" format="string" />
+        <attr name="endDateTime" format="string" />
+
+        <attr name="calendarHeight" format="dimension"/>
+        <attr name="isMultiple" format="boolean"/>
+        <attr name="duration" format="integer"/>
+
+        <attr name="pushcardcolor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="banner">
+        <attr name="showPoint" format="boolean" />
+        <attr name="pointPosition" format="enum">
+            <enum name="CENTER" value="0" />
+            <enum name="LEFT" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+        <attr name="showType" format="enum">
+            <enum name="NORMAL" value="0" />
+            <enum name="GALLERY" value="1" />
+        </attr>
+        <attr name="pageMargin" format="integer" />
+        <attr name="points_container_background" format="reference|color" />
+        <attr name="autoPalyTime" format="integer" />
+        <attr name="pointMarginLeft" format="dimension" />
+        <attr name="pointMarginTop" format="dimension" />
+        <attr name="pointMarginRight" format="dimension" />
+        <attr name="pointMarginBottom" format="dimension" />
+    </declare-styleable>
+
+</resources>

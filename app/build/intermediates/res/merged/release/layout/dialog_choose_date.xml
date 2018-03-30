@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/x600"
+        android:layout_height="@dimen/y300"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/x60"
+        android:paddingRight="@dimen/x60">
+
+        <education.zhiyuan.com.picturebooks.view.commodity.custom.QNumberPicker
+            android:id="@+id/npYear"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y300"
+            android:layout_weight="1"></education.zhiyuan.com.picturebooks.view.commodity.custom.QNumberPicker>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="年"
+            android:textColor="@color/green"
+            android:textSize="@dimen/x30" />
+
+        <education.zhiyuan.com.picturebooks.view.commodity.custom.QNumberPicker
+            android:id="@+id/npMonth"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y300"
+            android:layout_weight="1"></education.zhiyuan.com.picturebooks.view.commodity.custom.QNumberPicker>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="月"
+            android:textColor="@color/green"
+            android:textSize="@dimen/x30" />
+
+        <education.zhiyuan.com.picturebooks.view.commodity.custom.QNumberPicker
+            android:id="@+id/npDay"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y300"
+            android:layout_weight="1"></education.zhiyuan.com.picturebooks.view.commodity.custom.QNumberPicker>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="日"
+            android:textColor="@color/green"
+            android:textSize="@dimen/x30" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/x400"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/y40"
+        android:layout_marginTop="@dimen/y20">
+
+        <TextView
+            android:id="@+id/tvSure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/green"
+            android:textSize="@dimen/x32" />
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/green"
+            android:textSize="@dimen/x32" />
+    </LinearLayout>
+
+</LinearLayout>

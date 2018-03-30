@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y430"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/voiceRecyclerView"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="大大读的真好、摩拜ing"
+            android:paddingBottom="@dimen/y30"
+            android:paddingLeft="@dimen/x22"
+            android:paddingRight="@dimen/x22"
+            android:paddingTop="@dimen/y30"
+            android:textSize="@dimen/x30" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/voiceRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/x10" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/y50">
+
+        <ImageView
+            android:id="@+id/chat_record"
+            android:layout_width="@dimen/x113"
+            android:layout_height="@dimen/y113"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y67"
+            android:src="@drawable/iv_recording_two"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/chat_tv_sound_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chat_record"
+            android:layout_marginTop="@dimen/y20"
+            android:gravity="center"
+            android:text="长按录音"
+            android:textColor="#666"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_commit"
+            android:layout_width="@dimen/x560"
+            android:layout_height="@dimen/y88"
+            android:layout_below="@id/chat_record"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y100"
+            android:background="@drawable/bg_rectangular_shape_green"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x30" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

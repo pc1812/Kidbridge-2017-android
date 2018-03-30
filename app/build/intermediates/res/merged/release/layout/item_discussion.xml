@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/x10"
+    android:paddingRight="@dimen/x10">
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="@dimen/x87"
+        android:layout_height="@dimen/x87"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x6"
+        android:layout_marginTop="@dimen/y10"
+        android:layout_toRightOf="@id/iv_pic"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxEms="8"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x16" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_name"
+        android:layout_alignParentRight="true"
+        android:text="05/26 10:00"
+        android:textSize="@dimen/x28" />
+
+    <LinearLayout
+        android:id="@+id/ll_disInfoLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_name"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

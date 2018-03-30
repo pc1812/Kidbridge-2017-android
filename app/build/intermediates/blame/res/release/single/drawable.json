@@ -1,0 +1,482 @@
+[
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_play_left.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_play_left.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_04.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_04.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_shadow_upside.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1f96e867b7fa7b7ab8a3e3b61845b128ab85f6ce\\output\\res\\drawable\\ucrop_shadow_upside.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\view_popup_top_btn.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\view_popup_top_btn.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_record_len_left.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\chat_record_len_left.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_login_logo.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_login_logo.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_shape_white.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_shape_white.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_vector_ic_crop.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1f96e867b7fa7b7ab8a3e3b61845b128ab85f6ce\\output\\res\\drawable\\ucrop_vector_ic_crop.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\left.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\left.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_record_len_right.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\chat_record_len_right.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_05.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_05.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_head_point.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_head_point.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_play_right.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_play_right.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cb_select_item.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\cb_select_item.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cb_select.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\cb_select.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_animlist.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_animlist.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progressbar.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_shape_tr.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_shape_tr.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_03.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_03.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\select_lance_point.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\select_lance_point.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_guid_three.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_guid_three.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_shape_name.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_shape_name.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_the_ellipse_dark_red.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_the_ellipse_dark_red.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_start_page.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_start_page.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\record.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\record.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_shape_dialog.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_shape_dialog.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\right.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\right.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sample_footer_loading_progress.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\da8cd7d65ee9ac3d7d893b24ef7ebd39b83f5dee\\output\\res\\drawable\\sample_footer_loading_progress.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_sound_item.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\chat_sound_item.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_02.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_02.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_06.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_06.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_shape_sign.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_shape_sign.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_new_state.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_new_state.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_white_point.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_white_point.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_right.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_right.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cb_select_delete.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\cb_select_delete.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_12.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_12.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_replace_lesson.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_replace_lesson.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\nocomment.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\nocomment.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sound_chat_send_one.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\sound_chat_send_one.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_rectangular_green.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_rectangular_green.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sound_blank.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\sound_blank.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_replace_les.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_replace_les.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_balance.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_balance.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_09.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_09.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_play_pause.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_play_pause.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_shape_msg.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_shape_msg.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_scrollbar_thumb.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_scrollbar_thumb.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_guid_two.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_guid_two.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\recording_animlist.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\recording_animlist.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\view_select_address_val.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\view_select_address_val.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_select_admire.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_select_admire.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_08.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_08.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_circle_main.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\shape_circle_main.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_11.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_11.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_circle_gray.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\shape_circle_gray.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_guid_one.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_guid_one.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_shape_grary.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_shape_grary.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_07.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_07.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_01.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_01.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cb_select_all.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\cb_select_all.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_send_text_msg_bg_normal.9.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\chat_send_text_msg_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_rectangular_shape_green.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_rectangular_shape_green.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\chat_send_text_msg_bg_pressed.9.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\chat_send_text_msg_bg_pressed.9.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_10.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\loading_10.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sound_chat_send_two.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\sound_chat_send_two.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_chat_send_msg_item_bg.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\selector_chat_send_msg_item_bg.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_dialog_bg.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\shape_dialog_bg.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_wx_share.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_wx_share.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\record_pressed.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\record_pressed.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_reading.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_reading.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\view_select_address_btn_bg.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\view_select_address_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\tv_shape_light.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\tv_shape_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_replace_ban.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_replace_ban.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sample_footer_loading.png",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\da8cd7d65ee9ac3d7d893b24ef7ebd39b83f5dee\\output\\res\\drawable\\sample_footer_loading.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iv_replace_hb.png",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\iv_replace_hb.png"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_scrollbar_track.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\drawable\\bg_scrollbar_track.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    }
+]

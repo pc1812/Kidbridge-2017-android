@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <education.zhiyuan.com.picturebooks.view.commodity.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <education.zhiyuan.com.picturebooks.view.commodity.custom.CarouselBanner
+                android:id="@+id/lanceBanner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y416"
+                app:pointMarginBottom="@dimen/x16"
+                app:pointMarginLeft="@dimen/x10"
+                app:pointPosition="CENTER"
+                app:points_container_background="#00000000"
+                app:showPoint="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/x20"
+                android:layout_marginLeft="@dimen/x23"
+                android:layout_marginRight="@dimen/x22"
+                android:layout_marginTop="@dimen/x20"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/x6"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/x20"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="课程详情"
+                    android:textColor="#191919"
+                    android:textSize="@dimen/x32" />
+
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></WebView>
+        </LinearLayout>
+
+    </education.zhiyuan.com.picturebooks.view.commodity.MyScrollView>
+
+    <TextView
+        android:id="@+id/tv_boom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x30"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title_bar" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <education.zhiyuan.com.picturebooks.view.commodity.MyScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:orientation="vertical">
+                <!--Banner图片轮播-->
+                <education.zhiyuan.com.picturebooks.view.commodity.custom.CarouselBanner
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/x350"
+                    android:layout_marginBottom="@dimen/y47"
+                    android:layout_marginLeft="@dimen/x60"
+                    android:layout_marginRight="@dimen/x60"
+                    android:layout_marginTop="@dimen/y18"
+                    android:clipChildren="false"
+                    app:showPoint="false"
+                    app:showType="GALLERY"></education.zhiyuan.com.picturebooks.view.commodity.custom.CarouselBanner>
+
+                <!--今日打卡-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/y15"
+                        android:layout_marginLeft="@dimen/x25"
+                        android:layout_marginRight="@dimen/x25">
+
+                        <ImageView
+                            android:id="@+id/iv_today_clock"
+                            android:layout_width="@dimen/x29"
+                            android:layout_height="@dimen/x30"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/iv_today_clock" />
+
+                        <TextView
+                            android:id="@+id/tv_today"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/x20"
+                            android:layout_toRightOf="@+id/iv_today_clock"
+                            android:text="今日打卡"
+                            android:textColor="@color/textBlack"
+                            android:textSize="@dimen/x30" />
+
+                        <LinearLayout
+                            android:id="@+id/li_today_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_more_today"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/x10"
+                                android:layout_toLeftOf="@+id/iv_more"
+                                android:text="更多"
+                                android:textColor="@color/textBlack"
+                                android:textSize="@dimen/x28" />
+
+                            <ImageView
+                                android:id="@+id/iv_more"
+                                android:layout_width="@dimen/x19"
+                                android:layout_height="@dimen/y28"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/double_arrow" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/today_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x12"
+                        android:layout_marginRight="@dimen/x12"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/todayRecycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--年龄-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y15"
+                    android:layout_marginLeft="@dimen/x25"
+                    android:layout_marginRight="@dimen/x25"
+                    android:layout_marginTop="@dimen/y30"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_home_age"
+                        android:layout_width="@dimen/x29"
+                        android:layout_height="@dimen/x32"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/iv_home_age" />
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/ageTabLayout"
+                        android:layout_width="@dimen/x360"
+                        android:layout_height="@dimen/y40"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x20"
+                        android:layout_toRightOf="@id/iv_home_age"
+                        app:tabIndicatorColor="@color/white"
+                        app:tabPaddingStart="-1dp"
+                        app:tabSelectedTextColor="@color/colorPrimary"
+                        app:tabTextAppearance="@style/hTabLayoutTextAppearance"
+                        app:tabTextColor="@color/black" />
+
+                    <LinearLayout
+                        android:id="@+id/li_age_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/x10"
+                            android:layout_toLeftOf="@+id/iv_more"
+                            android:text="更多"
+                            android:textColor="@color/textBlack"
+                            android:textSize="@dimen/x28" />
+
+                        <ImageView
+                            android:layout_width="@dimen/x19"
+                            android:layout_height="@dimen/y27"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/double_arrow" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/ageViewPage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y400" />
+
+                <!--热门书单-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y15"
+                    android:layout_marginLeft="@dimen/x25"
+                    android:layout_marginRight="@dimen/x25"
+                    android:layout_marginTop="@dimen/y30">
+
+                    <ImageView
+                        android:id="@+id/iv_home_hot"
+                        android:layout_width="@dimen/x26"
+                        android:layout_height="@dimen/y30"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/iv_home_hot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/x20"
+                        android:layout_toRightOf="@+id/iv_home_hot"
+                        android:text="系列书单"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/x30" />
+
+                    <LinearLayout
+                        android:id="@+id/li_hot_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/x10"
+                            android:layout_toLeftOf="@+id/hot_more"
+                            android:text="更多"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/x28" />
+
+                        <ImageView
+                            android:id="@+id/hot_more"
+                            android:layout_width="@dimen/x19"
+                            android:layout_height="@dimen/y28"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/double_arrow" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/hotRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/y6"
+                    android:layout_marginLeft="@dimen/x12"
+                    android:layout_marginRight="@dimen/x12" />
+
+            </LinearLayout>
+
+        </education.zhiyuan.com.picturebooks.view.commodity.MyScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

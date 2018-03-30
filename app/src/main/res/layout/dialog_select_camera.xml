@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y88"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="@dimen/x10"
+        android:text="相机"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x30" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y2"
+        android:background="#dedede" />
+
+    <TextView
+        android:id="@+id/tv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x88"
+        android:gravity="center"
+        android:padding="@dimen/x10"
+        android:text="从相册选择"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x30" />
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y13"
+        android:background="#dedede" />
+
+    <TextView
+        android:id="@+id/pop_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x88"
+        android:gravity="center"
+        android:padding="@dimen/x10"
+        android:text="取消"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x30" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_calender_adapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/activity_title"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y30">
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/text_title"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30" />
+
+            <ImageView
+                android:id="@+id/iv_left"
+                android:layout_width="@dimen/x60"
+                android:layout_height="@dimen/x60"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_time"
+                android:scaleType="fitXY"
+                android:src="@drawable/left" />
+
+            <ImageView
+                android:id="@+id/iv_right"
+                android:layout_width="@dimen/x60"
+                android:layout_height="@dimen/x60"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_time"
+                android:scaleType="fitXY"
+                android:src="@drawable/right" />
+        </RelativeLayout>
+
+
+        <include layout="@layout/layout_week_num" />
+
+        <education.zhiyuan.com.picturebooks.calenders.MonthCalendar
+            android:id="@+id/monthCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y300"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/x10"
+            android:paddingRight="@dimen/x10"
+            app:endDateTime="2020-06-23"
+            app:isMultiple="false"
+            app:pointSize="@dimen/x1"
+            app:pointcolor="#00c8aa"
+            app:pushcardcolor="@android:color/holo_red_light"
+            app:selectCircleColor="@color/mainGreen"
+            app:solarTextSize="@dimen/x30" />
+
+    </LinearLayout>
+
+</RelativeLayout>

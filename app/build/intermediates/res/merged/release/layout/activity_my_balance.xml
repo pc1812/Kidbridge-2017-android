@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="education.zhiyuan.com.picturebooks.activity.MyBalanceActivity">
+
+    <include layout="@layout/bar_left_title_right" />
+
+    <ImageView
+        android:layout_width="@dimen/x164"
+        android:layout_height="@dimen/x164"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y115"
+        android:src="@drawable/iv_balance" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="H币"
+        android:textColor="#191919"
+        android:textSize="@dimen/x30" />
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y20"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/greendeep"
+        android:textSize="@dimen/x60"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/y60"
+        android:gravity="center"
+        android:text="H币明细"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/x32" />
+
+    <Button
+        android:id="@+id/btn_top_up"
+        android:layout_width="@dimen/x560"
+        android:layout_height="@dimen/y88"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y40"
+        android:background="@drawable/bg_the_ellipse_dark_red"
+        android:text="充值"
+        android:textColor="#fff"
+        android:textSize="@dimen/x32" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x106"
+        android:layout_marginRight="@dimen/x106"
+        android:layout_marginTop="@dimen/y42">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注："
+            android:textColor="@color/gray"
+            android:textSize="@dimen/x24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/x6"
+            android:text="H币可用于解锁绘本或兑换其他商品，不可提现。"
+            android:textColor="#c6c6c6"
+            android:textSize="@dimen/x24" />
+    </LinearLayout>
+
+</LinearLayout>

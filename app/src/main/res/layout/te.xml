@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y580"
+    android:layout_margin="@dimen/x10"
+    android:layout_marginLeft="@dimen/x10"
+    android:layout_marginRight="@dimen/x10"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x30"
+        android:layout_marginTop="@dimen/y20"
+        android:text="1/5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x30" />
+
+    <TextView
+        android:id="@+id/tv_en_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:lineSpacingExtra="@dimen/x10"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:text="My name
+                i
+                s\n
+                lan
+                ce
+                \n th
+                is\n i
+                s\n m
+                y\n en
+                glis
+                h \n
+                name ，
+                my \nchinese\n n
+                \nam\ne is 刘\n强。w\nelc\nome !"
+
+        android:textColor="#191919"
+        android:textSize="@dimen/x28" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:layout_above="@+id/li_bottom"
+        android:layout_marginBottom="@dimen/x5"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:background="@color/graywhite" />
+
+    <LinearLayout
+        android:id="@+id/li_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/y20"
+        android:layout_marginTop="@dimen/y20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_marginRight="@dimen/x50"
+            android:clickable="true"
+            android:src="@drawable/iv_to_read_play" />
+
+        <ImageView
+            android:id="@+id/iv_record"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_marginLeft="@dimen/x8"
+            android:clickable="true"
+            android:src="@drawable/iv_recording" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

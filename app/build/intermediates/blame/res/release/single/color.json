@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\ucrop_scale_text_view_selector.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1f96e867b7fa7b7ab8a3e3b61845b128ab85f6ce\\output\\res\\color\\ucrop_scale_text_view_selector.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\design_error.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\1e9d7684911110d872db014acaf0f2b55631704e\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\8e2bd0e632bab0126d47ea8f9ac42bdf140e6c01\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    }
+]

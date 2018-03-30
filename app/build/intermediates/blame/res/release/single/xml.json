@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\xml\\filepaths.xml",
+        "source": "D:\\ayouw\\s\\PictureBooks\\app\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "D:\\ayouw\\s\\PictureBooks\\app\\build\\intermediates\\res\\merged\\release\\xml\\web_download_paths.xml",
+        "source": "C:\\Users\\LH\\.android\\build-cache\\5e3a45f3b55f701e0d9141a9a613395997cab5fc\\output\\res\\xml\\web_download_paths.xml"
+    }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxEms="20"
+            android:singleLine="true"
+            android:text="本兮："
+            android:textColor="@color/greendeep"
+            android:textSize="@dimen/x26" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="谢谢夸奖谢谢夸奖111111112222333666554555555222222"
+            android:textColor="#999999"
+            android:lineSpacingExtra="@dimen/x6"
+            android:textSize="@dimen/x26"
+            />
+    </LinearLayout>
+
+</LinearLayout>
