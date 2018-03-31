@@ -118,9 +118,9 @@
                     android:lineSpacingExtra="@dimen/x8"
                     android:paddingLeft="@dimen/x80"
                     android:paddingRight="@dimen/x80"
-                    android:text="宝贝已经有有70滴水啦、获得松柏勋章，距离\n竹子勋章还差30滴水，继续加油哦"
+                    android:text="宝贝已经有有70滴水啦、获得松柏勋章，距离\n竹子勋章还差30滴水\n继续加油哦"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/x30" />
+                    android:textSize="@dimen/x28" />
 
             </RelativeLayout>
 

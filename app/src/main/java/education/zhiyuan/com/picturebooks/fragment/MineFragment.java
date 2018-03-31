@@ -2,16 +2,12 @@ package education.zhiyuan.com.picturebooks.fragment;
 
 import android.app.Dialog;
 import android.content.Intent;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
-import android.text.Spanned;
 import android.text.TextUtils;
-import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,6 +56,7 @@ import education.zhiyuan.com.picturebooks.http.Api;
 import education.zhiyuan.com.picturebooks.http.HttpCallBackN;
 import education.zhiyuan.com.picturebooks.http.MyAsyncTaskN;
 import education.zhiyuan.com.picturebooks.utils.GlideUtils;
+import education.zhiyuan.com.picturebooks.utils.HtmlCompat;
 import education.zhiyuan.com.picturebooks.utils.SharedPreferencesUtil;
 import education.zhiyuan.com.picturebooks.utils.TextViewUtils;
 import education.zhiyuan.com.picturebooks.utils.ToastUtil;
@@ -205,31 +202,12 @@ public class MineFragment extends Fragment implements HttpCallBackN {
 
     private void initText(int flag) {
         if (flag == 0) {
-            //String text = "宝贝已经有70滴水啦、获得松柏勋章，距离\n竹子勋章还差30滴水，继续加油哦!";
-            String text = "宝贝已经有" + bonus + "滴水，获得\"" + nowMedal + "\",\n继续加油哦！";
-            SpannableString ss = new SpannableString(text);
-            int one = text.indexOf("有") + 1; //5
-            int two = one + (bonus + "").length();
-            ss.setSpan(new ForegroundColorSpan(Color.YELLOW), one, two, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            ss.setSpan(new ForegroundColorSpan(Color.YELLOW), two + 7, two + 7 + nowMedal.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            tvMedal.setText(ss);
+            tvMedal.setText(HtmlCompat.fromHtml(String.format("宝贝已经有<font color=\"#FFFF00\">%s</font>滴水，获得%s<font color=\"#FFFF00\">%s</font>%s勋章<br/>继续加油哦！", bonus,"\"",nowMedal,"\"")));
         } else if (flag == 1) {
             //宝贝已经有。。。水滴了，目前未获得勋章，继续加油哦！
-            String text = "宝贝已经有" + bonus + "滴水，目前未获得勋章，\n继续加油哦！";
-            SpannableString ss = new SpannableString(text);
-            int one = text.indexOf("有") + 1;
-            int one_t = one + (bonus + "").length();
-            ss.setSpan(new ForegroundColorSpan(Color.YELLOW), one, one_t, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            tvMedal.setText(ss);
+            tvMedal.setText(HtmlCompat.fromHtml(String.format("宝贝已经有<font color=\"#FFFF00\">%s</font>滴水，滴水，目前未获得勋章<br/>继续加油哦！", bonus)));
         } else {
-            //String text = "宝贝已经有70滴水啦、获得松柏勋章，距离\n竹子勋章还差30滴水，继续加油哦!";
-            String text = "宝贝已经有" + bonus + "滴水，获得\"" + nowMedal + "\"，\n继续加油哦！";
-            SpannableString ss = new SpannableString(text);
-            int one = text.indexOf("有") + 1; //5
-            int two = one + (bonus + "").length();
-            ss.setSpan(new ForegroundColorSpan(Color.YELLOW), one, two, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            ss.setSpan(new ForegroundColorSpan(Color.YELLOW), two + 7, two + 7 + nowMedal.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            tvMedal.setText(ss);
+            tvMedal.setText(HtmlCompat.fromHtml(String.format("宝贝已经有<font color=\"#FFFF00\">%s</font>滴水，获得%s<font color=\"#FFFF00\">%s</font>%s勋章<br/>继续加油哦！", bonus,"\"",nowMedal,"\"")));
         }
     }
 

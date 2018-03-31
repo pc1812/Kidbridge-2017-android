@@ -17,6 +17,7 @@
             android:layout_height="@dimen/y85"
             android:background="@color/white"
             android:gravity="center_vertical"
+            android:clickable="false"
             android:orientation="horizontal">
 
             <Spinner
@@ -25,13 +26,25 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/x10"
+                android:clickable="false"
+                android:visibility="gone"
                 android:entries="@array/mobilearea"></Spinner>
-
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/x30"
+                android:drawableRight="@drawable/arrow_down"
+                android:drawablePadding="@dimen/x4"
+                android:paddingLeft="@dimen/x12"
+                android:layout_marginLeft="@dimen/x12"
+                android:text="+86"/>
             <EditText
                 android:id="@+id/et_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
+                android:layout_marginLeft="@dimen/x12"
                 android:hint="请输入手机号"
                 android:paddingLeft="@dimen/x10"
                 android:singleLine="true"

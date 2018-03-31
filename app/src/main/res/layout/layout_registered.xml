@@ -45,10 +45,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:entries="@array/mobilearea"></Spinner>
+            android:entries="@array/mobilearea"
+            android:visibility="gone"></Spinner>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/x30"
+            android:drawableRight="@drawable/arrow_down"
+            android:drawablePadding="@dimen/x4"
+            android:text="+86"/>
 
         <EditText
             android:id="@+id/edPhone"
+            android:layout_marginLeft="@dimen/x12"
+            android:paddingRight="@dimen/x12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

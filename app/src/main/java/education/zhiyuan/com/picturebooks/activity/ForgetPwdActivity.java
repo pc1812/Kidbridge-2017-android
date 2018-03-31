@@ -69,13 +69,18 @@ public class ForgetPwdActivity extends BaseActivity implements HttpCallBackN {
     protected void initView() {
         tvRight.setVisibility(View.GONE);
         tvTitle.setText("手机验证");
+       /* spinner.setClickable(false);
+        spinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                return;
+            }
+        });*/
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i == 0) {
                     mobilearea = "+86";
-                } else {
-                    mobilearea = "+1";
                 }
             }
 

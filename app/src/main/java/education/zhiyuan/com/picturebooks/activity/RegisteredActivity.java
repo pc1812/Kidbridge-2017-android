@@ -100,6 +100,13 @@ public class RegisteredActivity extends AppCompatActivity implements HttpCallBac
             btnRegister.setText("注册");
         }
         InitView();
+      /*  spinner.setClickable(false);
+        spinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                return;
+            }
+        });*/
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
