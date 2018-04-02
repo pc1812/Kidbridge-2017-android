@@ -4,7 +4,6 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
@@ -12,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.google.gson.Gson;
 
 import org.greenrobot.eventbus.EventBus;
@@ -28,20 +26,19 @@ import butterknife.BindView;
 import butterknife.OnClick;
 import education.zhiyuan.com.picturebooks.MyApp;
 import education.zhiyuan.com.picturebooks.R;
-import education.zhiyuan.com.picturebooks.adpter.BookListDetailAdapter;
+import education.zhiyuan.com.picturebooks.adpter.BookListRecyclerViewAdapter;
 import education.zhiyuan.com.picturebooks.base.BaseActivity;
 import education.zhiyuan.com.picturebooks.bean.BookDetial;
-import education.zhiyuan.com.picturebooks.http.Api;
+import education.zhiyuan.com.picturebooks.bean.DataBean;
 import education.zhiyuan.com.picturebooks.http.HttpCallBackN;
 import education.zhiyuan.com.picturebooks.http.MyAsyncTaskN;
-import education.zhiyuan.com.picturebooks.utils.GlideUtils;
 import education.zhiyuan.com.picturebooks.utils.SharedPreferencesUtil;
 import education.zhiyuan.com.picturebooks.utils.ToastUtil;
 
 /**
  * 书单详情---多个绘本  书单名称+绘本列表
  */
-public class BookListDetailActivity extends BaseActivity implements HttpCallBackN {
+public class BookListDetailActivity extends BaseActivity implements HttpCallBackN,BookListRecyclerViewAdapter.ItemOnClick {
 
     @BindView(R.id.tv_title)
     TextView tvTitle;
@@ -58,8 +55,9 @@ public class BookListDetailActivity extends BaseActivity implements HttpCallBack
     private Dialog pBar;
     private boolean isLoading = false;
     private String name;
-    private BookListDetailAdapter listAdapter;
+    private BookListRecyclerViewAdapter listAdapter;
     private View emptyView;
+    private List<DataBean>  dataBeanList=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,26 +90,20 @@ public class BookListDetailActivity extends BaseActivity implements HttpCallBack
     protected void initView() {
         tvRight.setVisibility(View.GONE);
         tvTitle.setText(name);
-        LinearLayoutManager linearLayoutManager = new GridLayoutManager(this, 2);
-        recyclerView.setLayoutManager(linearLayoutManager);
-        recyclerView.setNestedScrollingEnabled(false);
-        listAdapter = new BookListDetailAdapter(R.layout.item_card_books, bookList);
-        listAdapter.setEmptyView(emptyView);
-        listAdapter.setOnItemClickListener(new BaseQuickAdapter.OnItemClickListener() {
-            @Override
-            public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
-                //绘本详情
-                Intent intent = new Intent(getApplicationContext(), BridgeDetail.class);
-                intent.putExtra("id", bookList.get(position).getId());
-                intent.putExtra("name", bookList.get(position).getName());
-                if (bookList.get(position).getPrice() > 0) {
-                    intent.putExtra("isFree", false);
-                } else {
-                    intent.putExtra("isFree", true);
-                }
-                startActivity(intent);
-            }
-        });
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        gridLayoutManager.setSpanSizeLookup(
+                new GridLayoutManager.SpanSizeLookup() {
+                    @Override
+                    public int getSpanSize(int postion) {
+                        if (listAdapter.getItemViewType(postion) == 1) {
+                            return 2;
+                        } else {
+                            return 1;
+                        }
+                    }
+                });
+        recyclerView.setLayoutManager(gridLayoutManager);
+        listAdapter = new BookListRecyclerViewAdapter(this,dataBeanList);
         recyclerView.setAdapter(listAdapter);
     }
 
@@ -147,20 +139,32 @@ public class BookListDetailActivity extends BaseActivity implements HttpCallBack
     public void onSuccess(int type, String str) {
         Log.e("unun", "onSuccess: ");
         dis();
+        if(dataBeanList!=null){
+            dataBeanList.clear();
+        }
         bookDetial = new Gson().fromJson(str, BookDetial.class);
-        GlideUtils.GlideNormal(getApplicationContext(), Api.QN + bookDetial.getData().getCover().getIcon(), ivTodayclock, R.drawable.iv_replace_les);
-        ivTodayclock.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), BannerDetailActivity.class);
-                intent.putExtra("url", bookDetial.getData().getCover().getLink());
-                startActivity(intent);
-            }
-        });
+        DataBean dataBean=new DataBean();
+        dataBean.setType(1);
+        dataBean.setIcon(bookDetial.getData().getCover().getIcon());
+        dataBeanList.add(dataBean);
         if (bookDetial.getData().getBookList().size() > 0) {
-            bookList.addAll(bookDetial.getData().getBookList());
-            if (recyclerView.getAdapter() != null) {
-                recyclerView.getAdapter().notifyDataSetChanged();
+            for (int i=0;i<bookDetial.getData().getBookList().size();i++){
+                DataBean data=new DataBean();
+                data.setType(2);
+                data.setBookList(bookDetial.getData().getBookList().get(i));
+                dataBeanList.add(data);
+            }
+            if (listAdapter != null) {
+                listAdapter.notifyDataSetChanged();
+            }
+        }else {
+            if(bookList.size()==0){
+                emptyView.setVisibility(View.VISIBLE);
+            }else {
+                emptyView.setVisibility(View.GONE);
+            }
+            if (listAdapter != null) {
+                listAdapter.notifyDataSetChanged();
             }
         }
     }
@@ -186,5 +190,26 @@ public class BookListDetailActivity extends BaseActivity implements HttpCallBack
                 pBar = null;
             }
         }
+    }
+
+    @Override
+    public void itemClick(int position) {
+        //绘本详情
+        Intent intent = new Intent(getApplicationContext(), BridgeDetail.class);
+        intent.putExtra("id",dataBeanList.get(position).getBookList().getId());
+        intent.putExtra("name", dataBeanList.get(position).getBookList().getName());
+        if (dataBeanList.get(position).getBookList().getPrice() > 0) {
+            intent.putExtra("isFree", false);
+        } else {
+            intent.putExtra("isFree", true);
+        }
+        startActivity(intent);
+    }
+
+    @Override
+    public void imageClick(int position) {
+        Intent intent = new Intent(getApplicationContext(), BannerDetailActivity.class);
+        intent.putExtra("url", bookDetial.getData().getCover().getLink());
+        startActivity(intent);
     }
 }

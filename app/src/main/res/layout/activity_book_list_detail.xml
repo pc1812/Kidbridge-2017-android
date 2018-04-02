@@ -7,15 +7,21 @@
     tools:context="education.zhiyuan.com.picturebooks.activity.BookListDetailActivity">
 
     <include layout="@layout/bar_left_title_right" />
-
-    <education.zhiyuan.com.picturebooks.view.commodity.MScrollview
-
+    <android.support.v7.widget.RecyclerView
+        android:paddingLeft="@dimen/x11"
+        android:paddingRight="@dimen/x11"
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageView
@@ -24,15 +30,6 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/x10"
                 />
-
-            <android.support.v7.widget.RecyclerView
-                android:paddingLeft="@dimen/x11"
-                android:paddingRight="@dimen/x11"
-                android:id="@+id/recyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
         </LinearLayout>
-
-    </education.zhiyuan.com.picturebooks.view.commodity.MScrollview>
-
+</ScrollView>
 </LinearLayout>

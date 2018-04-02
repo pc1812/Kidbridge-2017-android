@@ -41,7 +41,9 @@ public class BookListDetailAdapter extends BaseQuickAdapter<BookDetial.DataBean.
 
     @Override
     protected void convert(BaseViewHolder holder, BookDetial.DataBean.BookListBean bookListBean) {
-        GlideUtils.GlideNormal(MyApp.getInstance(), Api.QN + bookListBean.getIcon().get(0), (ImageView) holder.getView(R.id.iv_today_left), R.drawable.iv_replace_hb);
+        if(bookListBean.getIcon().size()!=0) {
+            GlideUtils.GlideNormal(MyApp.getInstance(), Api.QN + bookListBean.getIcon().get(0), (ImageView) holder.getView(R.id.iv_today_left), R.drawable.iv_replace_hb);
+        }
         holder.setText(R.id.tv_today_left, bookListBean.getName());
         LinearLayout ll = holder.getView(R.id.ll_tag);  //标签
         ll.removeAllViews();
