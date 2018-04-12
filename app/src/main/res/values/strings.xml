@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HS英文绘本</string>
+    <string name="app_name">HS英文绘本课堂</string>
     <string name="new_login">登录失效，请重新登录</string>
     <string name="no_more_data">已经全部加载完毕</string>
     <string name="no_data">暂无数据</string>

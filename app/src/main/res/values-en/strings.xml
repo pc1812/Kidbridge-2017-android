@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HS英文绘本</string>
+    <string name="app_name">HS英文绘本课堂</string>
     <string name="new_login">Login invalid. Please login again</string>
     <string name="no_more_data">No more data!</string>
     <string name="no_data">No data</string>
