@@ -16,6 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements UpdateDialog.Upda
         param.put("timestamp", System.currentTimeMillis());
         new MyAsyncTaskN(MainActivity.this, 0, url, this).execute(param);
 //        apkCheck();
-
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
 
 
@@ -338,11 +339,7 @@ public class MainActivity extends AppCompatActivity implements UpdateDialog.Upda
         remindTime = SharedPreferencesUtil.getRemindTime(getApplicationContext());
         int nexRemindTime = Integer.valueOf(TimeTools.getStr(TimeTools.getDateStrNext(TimeTools.getStrTime(remindTime), 0) + ""));
         int timeToday = Integer.valueOf(TimeTools.getStr(System.currentTimeMillis() + ""));
-        if (nexRemindTime > timeToday) {
-            return false;
-        } else {
-            return true;
-        }
+        return nexRemindTime <= timeToday;
     }
 
     /**

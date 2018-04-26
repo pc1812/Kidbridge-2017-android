@@ -22,6 +22,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -194,6 +195,7 @@ public class ToReadActivity extends AppCompatActivity implements FragmentToRead.
         iconList = new ArrayList<>();
         checkPermission(requestPermissions, requestCode, 0); //只检查权限
         getReadToken(); //获取跟读token
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
 
     @Override
