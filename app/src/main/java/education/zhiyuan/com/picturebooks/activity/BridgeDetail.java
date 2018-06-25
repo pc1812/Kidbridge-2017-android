@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -73,8 +74,15 @@ public class BridgeDetail extends BaseActivity implements HttpCallBackN {
     TextView tvAppreciation;
     @BindView(R.id.ll_free)
     LinearLayout llFree;
+
+    @BindView(R.id.ll_ls)
+    LinearLayout llLS;
     @BindView(R.id.tv_nlock)
     TextView tvNlock;
+
+
+    @BindView(R.id.tv_ls)
+    TextView tvLs;
     @BindView(R.id.myScroll)
     MScrollview myScroll;
     @BindView(R.id.re_bom)
@@ -308,6 +316,14 @@ public class BridgeDetail extends BaseActivity implements HttpCallBackN {
      * 数据 UI
      */
     public void initView(int type) {
+        if(TextUtils.isEmpty(huiBenDetialBeen.getData().getBook().getLexile())){
+            tvLs.setVisibility(View.GONE);
+            llLS.setVisibility(View.GONE);
+        }else {
+            tvLs.setVisibility(View.VISIBLE);
+            llLS.setVisibility(View.VISIBLE);
+            tvLs.setText("\t\t\t\t"+huiBenDetialBeen.getData().getBook().getLexile());
+        }
         switch (type) {
             case 0:
                 if (refresh) { //解锁后，刷新的数据
@@ -348,6 +364,7 @@ public class BridgeDetail extends BaseActivity implements HttpCallBackN {
                         bannerList.add(Api.QN + bean.getIcon().get(i));
                     }
                     lanceBanner.setImagesUrl(bannerList);
+                    tvLs.setText("\t\t\t\t" + bean.getLexile());
                     tvStory.setText("\t\t\t\t" + bean.getOutline()); //梗概
                     tvFelling.setText("\t\t\t\t" + bean.getFeeling()); //感悟
                     if (bean.getFit() == 0) {  //适龄

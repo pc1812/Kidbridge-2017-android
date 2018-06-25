@@ -8,6 +8,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.support.multidex.MultiDexApplication;
 
+import com.tencent.bugly.crashreport.CrashReport;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 
@@ -54,6 +55,7 @@ public class MyApp extends MultiDexApplication {
         //极光
         JPushInterface.setDebugMode(false);//正式版的时候设置false，关闭调试
         JPushInterface.init(this);
+        CrashReport.initCrashReport(getApplicationContext(), "6d94a69747", true);
         try {
             getVersionInfo();
         } catch (Exception e) {
@@ -78,7 +80,6 @@ public class MyApp extends MultiDexApplication {
         }
         return res;
     }
-
 
     public void addActivity(Activity activity) {
         activityList.add(activity);

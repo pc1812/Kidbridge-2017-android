@@ -37,6 +37,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -194,6 +195,8 @@ public class ToReadDetailActivity extends AppCompatActivity implements HttpCallB
     private boolean isOffication = false; //是否为官方
     private String totalAudio = ""; //总段音频
     private Boolean isWebLoadFinish = false;
+    public static final int MIN_CLICK_DELAY_TIME = 1000;
+    private long lastClickTime = 0;
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -594,9 +597,13 @@ public class ToReadDetailActivity extends AppCompatActivity implements HttpCallB
                 break;
             case R.id.iv_play_right: //播放下一个
                 if (audioList.size() > 0) {
-                    handler.removeMessages(110);
-                    handler.removeMessages(220);
-                    handler.sendEmptyMessageDelayed(220, 500);
+                    long currentTime = Calendar.getInstance().getTimeInMillis();
+                    if (currentTime - lastClickTime > MIN_CLICK_DELAY_TIME) {
+                        lastClickTime = currentTime;
+                        handler.removeMessages(110);
+                        handler.removeMessages(220);
+                        handler.sendEmptyMessageDelayed(220, 500);
+                    }
                 }
                 break;
             case R.id.iv_back:

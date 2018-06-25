@@ -31,13 +31,54 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    app:points_container_background="#00000000"
-                    app:pointPosition="CENTER"
-                    app:pointMarginLeft="@dimen/x10"
                     app:pointMarginBottom="@dimen/x16"
+                    app:pointMarginLeft="@dimen/x10"
+                    app:pointPosition="CENTER"
+                    app:points_container_background="#00000000"
                     app:showPoint="true" />
 
             </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_ls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x23"
+                android:layout_marginRight="@dimen/x22"
+                android:layout_marginTop="@dimen/y30"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/x6"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/x22"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="蓝思指数"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x32" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_ls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x10"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_marginTop="@dimen/y20"
+                android:ellipsize="end"
+                android:lineSpacingExtra="2sp"
+                android:maxLines="3"
+                android:text="sssssss"
+                android:textColor="#333"
+                android:textSize="@dimen/x28" />
+
+
 
 
             <LinearLayout
@@ -72,6 +113,7 @@
                 android:layout_marginRight="@dimen/x10"
                 android:layout_marginTop="@dimen/y20"
                 android:ellipsize="end"
+                android:text="sssssssss"
                 android:lineSpacingExtra="2sp"
                 android:maxLines="3"
                 android:textColor="#333"

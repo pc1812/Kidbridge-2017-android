@@ -19,6 +19,7 @@ public class HuiBenDetialBean {
     private DataBean data;
     private String describe;
 
+
     public String getEvent() {
         return event;
     }
@@ -92,6 +93,15 @@ public class HuiBenDetialBean {
             private String difficulty;
             private List<String> icon;
             private List<String> tag;
+            private String lexile;
+
+            public String getLexile() {
+                return lexile;
+            }
+
+            public void setLexile(String lexile) {
+                this.lexile = lexile;
+            }
 
             public int getId() {
                 return id;
